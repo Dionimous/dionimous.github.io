@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    float: left;
+    margin-right: 1em;
+}
