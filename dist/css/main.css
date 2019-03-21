@@ -20,3 +20,12 @@ header {
 #landingPageImg {
     width: 100%;
 }
+.text-wrapper {
+    position: relative;
+    margin-top: -50%;
+    float: right;
+    color: #fff;
+}
+.text-wrapper h1{
+    margin-right: 100px;
+}
