@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* Global Setting */
+* { margin: 0 auto; padding: 0; border:0; }
+
+a { text-decoration: none; color: white; }
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body {
+    background-color: #130f2c;
+    font-family: 'Open Sans', sans-serif;
+}
+.active { color: #fff900; }
+
+/*  Index Splash Screen Settings */
+.text-wrapper {
+    position: relative;
+    margin-top: -50%;
+    width: 100%;
+    min-height: 200px;
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.4);
+    border-top: 5px solid #197688;
+    border-bottom: 2px solid #197688;
+}
+.text-wrapper h1 {
+    color: #fff900;
+    margin-right: 70px;
+    margin-top: 40px;
+    font-size: 50px;
+    float: right;
+}
+.text-wrapper #portfolio {
+    color: #fff;
+    margin-top: -20px;
+    letter-spacing: 6px;
+}
+
+/* Header Section */
+.main_title {
+    background-color: #1f0066;
+    width: 100%;
+    min-height: 125px;
+    font-size: 25px;
+    border-bottom: solid 3px #07a6fc;
+}
+.main_title h1 {
+    color: #fff900;
+    margin-top: 20px;
+}
+.main_title #portfolio {
+    color: #fff;
+    letter-spacing: 4px;
+    margin-top: -18px;
+}
+#about_me {
+    float: left;
+    width: 58%;
+    min-height: 400px;
+    background-color: #FFF;
+}
+#dion_img {
+    float:right;
+    width: 40%;
+}
+#dion_img img {
+    width: 100%;
+}
+/* Navigation */
+nav {
+    height: 30px;
+    background-color: darkblue;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav a {
+    display: block;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #197688;
+}
+
+
+/* Media Queries */
+@media(max-width:430px) {
+    .main_title, nav li .container {
+        float:none;
+        text-align: center;
+        widows: 100%;
+    }
+    .main_title {
+        font-size: 16px;
+    }
+    .main_title #portfolio {
+        color: #fff;
+        letter-spacing: 2.5px;
+        margin-top: -10px;
+    }
+    nav li {
+        width: 100%;
+        text-align: center;
+        background-color: #197688;
+    }
+    nav a {
+        color: #FFF;
+    }
+    
+}
