@@ -1,121 +1,135 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 /* Global Setting */
 * { margin: 0 auto; padding: 0; border:0; }
-
 a { text-decoration: none; color: white; }
+ul { list-style: none; }
+p { line-height: 1.2em; }
 
-.container {
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-}
+
+/* Containers */
+.container { width: 90%; overflow: hidden; }
 
 body {
-    background-color: #130f2c;
-    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    color: white;
+    background-color: #0f0c1b;
+    font-family: 'Roboto', sans-serif;
 }
-.active { color: #fff900; }
+/* Containers End */
+  
 
-/*  Index Splash Screen Settings */
-.text-wrapper {
-    position: relative;
-    margin-top: -50%;
-    width: 100%;
-    min-height: 200px;
-    color: #fff;
-    background-color: rgba(0, 0, 255, 0.4);
-    border-top: 5px solid #197688;
-    border-bottom: 2px solid #197688;
+/* Index Page */
+.background {
+background: url('../img/background.jpg') no-repeat;
+width: 100%;
+min-height: 1200px;
+padding-top: 250px;
 }
-.text-wrapper h1 {
-    color: #fff900;
-    margin-right: 70px;
-    margin-top: 40px;
-    font-size: 50px;
-    float: right;
+.test {
+background-color: rgba(0,255, 255, 0.2);
+font-size: 50px;
+padding: 50px;
+text-align: right;
+border-top: solid 6px #3100ff;
+border-bottom: solid 3px #65bf40;
 }
-.text-wrapper #portfolio {
-    color: #fff;
-    margin-top: -20px;
-    letter-spacing: 6px;
+/*  Index Splash Page Ends */
+
+
+
+/* Main-header */
+.main-header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #3100ff;
+  border-bottom: 3px solid #65bf40;
+  text-align: center;
 }
 
-/* Header Section */
-.main_title {
-    background-color: #1f0066;
-    width: 100%;
-    min-height: 125px;
-    font-size: 25px;
-    border-bottom: solid 3px #07a6fc;
+/* Main-header End*/
+
+
+
+/* Navigation Menu */
+.nav-box ul {
+  background-color: gray;
+  overflow: hidden;
+  text-align: center;
+  transition: max-height 0.4s;
 }
-.main_title h1 {
-    color: #fff900;
-    margin-top: 20px;
+.nav-box ul li {
+  display: inline-block;
+  padding:15px;
 }
-.main_title #portfolio {
-    color: #fff;
-    letter-spacing: 4px;
-    margin-top: -18px;
+.nav-box ul li a {
+  font-weight: bold;
 }
-#about_me {
-    float: left;
-    width: 58%;
-    min-height: 400px;
-    background-color: #FFF;
+.handle-menu {
+  width: 100%;
+  color:yellow;
+  background-color: #005c48;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  cursor: pointer;
+  display: none;
 }
-#dion_img {
-    float:right;
-    width: 40%;
+
+
+
+
+
+/**************  Mobile Settings  **************/
+@media(max-width:700px) {
+ 
+  /*  Index Splash Page */
+  .test {
+    font-size: 30px;
+    text-align: center;
+  }
+  /*  Index Splash Page Ends */
+  
+  /* 700 end */
 }
-#dion_img img {
-    width: 100%;
-}
-/* Navigation */
-nav {
-    height: 30px;
-    background-color: darkblue;
-    padding: 10px 0;
-}
-nav ul {
-    list-style-type: none;
-    overflow: hidden;
-}
-nav li {
-    float: left;
-}
-nav a {
-    display: block;
-    color: #fff;
-    margin-right: 40px;
+
+
+
+@media(max-width:460px) {
+
+  .test {
     font-size: 20px;
-}
-nav a:hover {
-    color: #197688;
-}
+    text-align: center;
+  }
 
 
-/* Media Queries */
-@media(max-width:430px) {
-    .main_title, nav li .container {
-        float:none;
-        text-align: center;
-        widows: 100%;
-    }
-    .main_title {
-        font-size: 16px;
-    }
-    .main_title #portfolio {
-        color: #fff;
-        letter-spacing: 2.5px;
-        margin-top: -10px;
-    }
-    nav li {
-        width: 100%;
-        text-align: center;
-        background-color: #197688;
-    }
-    nav a {
-        color: #FFF;
-    }
-    
+  .main-header {
+    width:100%;
+    float: none;
+    text-align: center;
+  }
+
+  /* Navigation Bar */
+  .nav-box ul {
+    max-height: 0;
+  }
+  .nav-box ul li {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #555;
+  text-align: left;
+  }
+  .nav-box ul li:hover {
+    background-color: darkkhaki;
+  }
+  .handle-menu{
+    display: block;
+  } 
+  .show-menu {
+    max-height: 20em;
+  }
+
+
+
+
+  /* 460 End */
 }
