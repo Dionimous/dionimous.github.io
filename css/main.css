@@ -75,6 +75,16 @@ border-bottom: solid 3px #65bf40;
 }
 
 
+.coming_soon {
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+
 
 
 
