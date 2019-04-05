@@ -3,9 +3,6 @@
 a { text-decoration: none; color: white; }
 ul { list-style: none; }
 p { line-height: 1.2em; }
-
-
-/* Containers */
 .container { width: 90%; overflow: hidden; }
 
 body {
@@ -14,10 +11,9 @@ body {
     background-color: #0f0c1b;
     font-family: 'Roboto', sans-serif;
 }
-/* Containers End */
-  
 
-/* Index Page */
+
+/* Index Main Page */
 .background {
 background: url('../img/background.jpg') no-repeat;
 width: 100%;
@@ -32,7 +28,6 @@ text-align: right;
 border-top: solid 6px #3100ff;
 border-bottom: solid 3px #65bf40;
 }
-/*  Index Splash Page Ends */
 
 
 
@@ -44,10 +39,6 @@ border-bottom: solid 3px #65bf40;
   border-bottom: 3px solid #65bf40;
   text-align: center;
 }
-
-/* Main-header End*/
-
-
 
 /* Navigation Menu */
 .nav-box ul {
@@ -82,6 +73,27 @@ border-bottom: solid 3px #65bf40;
   border: 1px solid lightgray;
 }
 
+#about-me-section {
+  width: 100%;
+  min-height: 600px;;
+  color: black;
+  background-color: white;
+}
+#about-me-img {
+  float: left;
+  width: 40%;
+}
+#about-me-img img{
+  width: 100%;
+}
+#about-me-text {
+  float: right;
+  width: 50%;
+  background-color: white;
+}
+
+
+
 
 
 
@@ -103,17 +115,17 @@ border-bottom: solid 3px #65bf40;
 
 @media(max-width:460px) {
 
+  .main-header #about-me-section{
+    width:100%;
+    float: none;
+    text-align: center;
+  }
+
   .test {
     font-size: 20px;
     text-align: center;
   }
 
-
-  .main-header {
-    width:100%;
-    float: none;
-    text-align: center;
-  }
 
   /* Navigation Bar */
   
