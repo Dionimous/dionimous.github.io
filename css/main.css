@@ -92,6 +92,42 @@ border-bottom: solid 3px #65bf40;
   background-color: white;
 }
 
+/*********** Accordion Section ****************/
+.resume-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion-header {
+  display: block;
+  padding: 15px 20px;
+  background-color: gray;
+  color: white;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.accordion-content P {
+  margin: 0 0 20px 0;
+}
+
+.accordion-content {
+  height: 0;
+  overflow: hidden;
+}
+
+.accordion-content:target {
+  height: auto;
+  padding: 20px;
+}
+
 
 
 
