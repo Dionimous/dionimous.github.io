@@ -1,0 +1,64 @@
+/**********  Global Setting  **********/
+* { margin: 0 auto; padding: 0; border:0; }
+a { text-decoration: none; color: white; }
+ul { list-style: none; }
+p { line-height: 1.2em; }
+.container { width: 90%; overflow: hidden; }
+
+body {
+    width: 100%;
+    color: black;
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+$purple: #410091;
+$light-purple: #d25aff;
+$neon-green: #6aff1a;
+$dark-green:#4d9963;
+$green: #01cc3a;
+$dark-blue: #00215c;
+$Ocean-blue: #039fda;
+$Teal-blue: #0094a0;
+$mobilePhone: 480px;
+
+
+/**********  Main Header **********/
+.main-header {
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background-color: $purple;
+    border-bottom: 1px solid $Ocean-blue;
+    text-align: center;
+  }
+
+
+
+
+
+/********** Navigation **********/
+.nav-box ul {
+  width: 100%;
+  background-color: $dark-blue;
+  text-align: center;
+  border-bottom: #6aff1a 1px solid;
+}
+.nav-box ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav-box ul li a {
+  padding: 15px;
+}
+@media screen and (max-width: $mobilePhone) {
+  .nav-box ul li {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid lightseagreen ;
+    text-align: center;
+  }
+  .nav-box ul li:hover {
+    background-color: #333;
+  }
+}

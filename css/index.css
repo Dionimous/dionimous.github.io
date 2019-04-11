@@ -1,0 +1,50 @@
+/* Global Setting */
+* { margin: 0 auto; padding: 0; border:0; }
+a { text-decoration: none; color: white; }
+ul { list-style: none; }
+p { line-height: 1.2em; }
+.container { width: 90%; overflow: hidden; }
+
+body {
+    width: 100%;
+    color: white;
+    background-color: #0f0c1b;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Index Main Page */
+.background {
+  background: url('../img/background.jpg') no-repeat;
+  width: 100%;
+  min-height: 1200px;
+  padding-top: 250px;
+  }
+  .test {
+  background-color: rgba(0,255, 255, 0.2);
+  font-size: 50px;
+  padding: 50px;
+  text-align: right;
+  border-top: solid 6px #3100ff;
+  border-bottom: solid 3px #65bf40;
+  }
+
+
+
+/**************  Mobile Settings  **************/
+@media(max-width:700px) {
+ 
+  .test {
+    font-size: 30px;
+    text-align: center;
+  }
+
+}
+
+@media(max-width:460px) {
+
+  .test {
+    font-size: 20px;
+    text-align: center;
+  }
+
+}

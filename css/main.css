@@ -1,189 +1,35 @@
-/* Global Setting */
-* { margin: 0 auto; padding: 0; border:0; }
-a { text-decoration: none; color: white; }
-ul { list-style: none; }
-p { line-height: 1.2em; }
-.container { width: 90%; overflow: hidden; }
-
-body {
-    width: 100%;
-    color: white;
-    background-color: #0f0c1b;
-    font-family: 'Roboto', sans-serif;
+/**********  Global Setting  **********/
+* {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
 }
 
-
-/* Index Main Page */
-.background {
-background: url('../img/background.jpg') no-repeat;
-width: 100%;
-min-height: 1200px;
-padding-top: 250px;
-}
-.test {
-background-color: rgba(0,255, 255, 0.2);
-font-size: 50px;
-padding: 50px;
-text-align: right;
-border-top: solid 6px #3100ff;
-border-bottom: solid 3px #65bf40;
-}
-
-
-
-/* Main-header */
-.main-header {
-  width: 100%;
-  padding: 20px 0;
-  background-color: #3100ff;
-  border-bottom: 3px solid #65bf40;
-  text-align: center;
-}
-
-/* Navigation Menu */
-.nav-box ul {
-  width: 100%;
-  background-color: gray;
-  text-align: center;
-}
-.nav-box ul li {
-  display: inline-block;
-  padding:15px;
-}
-.nav-box ul li a {
-  font-weight: bold;
-}
-.handle-menu {
-  width: 100%;
-  color:yellow;
-  background-color: #005c48;
-  text-align: left;
-  box-sizing: border-box;
-  padding: 15px 10px;
-  cursor: pointer;
-}
-
-
-.coming_soon {
-  color: black;
-  background-color: white;
-  font-size: 30px;
-  text-align: center;
-  padding: 10px;
-  border: 1px solid lightgray;
-}
-
-#about-me-section {
-  width: 100%;
-  min-height: 600px;;
-  color: black;
-  background-color: white;
-}
-#about-me-img {
-  float: left;
-  width: 40%;
-}
-#about-me-img img{
-  width: 100%;
-}
-#about-me-text {
-  float: right;
-  width: 50%;
-  background-color: white;
-}
-
-/*********** Accordion Section ****************/
-.resume-container {
-  width: 100%;
-  max-width: 400px;
-}
-
-.accordion {
-  width: 100%;
-}
-
-.accordion-header {
-  display: block;
-  padding: 15px 20px;
-  background-color: gray;
+a {
+  text-decoration: none;
   color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
   line-height: 1.2em;
-  text-transform: uppercase;
-  border-radius: 4px;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
-  margin-bottom: 5px;
 }
 
-.accordion-content P {
-  margin: 0 0 20px 0;
-}
-
-.accordion-content {
-  height: 0;
+.container {
+  width: 90%;
   overflow: hidden;
 }
 
-.accordion-content:target {
-  height: auto;
-  padding: 20px;
-}
-
-
-
-
-
-
-
-/**************  Mobile Settings  **************/
-@media(max-width:700px) {
- 
-  /*  Index Splash Page */
-  .test {
-    font-size: 30px;
-    text-align: center;
-  }
-  /*  Index Splash Page Ends */
-  
-  /* 700 end */
-}
-
-
-
-@media(max-width:460px) {
-
-  .main-header #about-me-section{
-    width:100%;
-    float: none;
-    text-align: center;
-  }
-
-  .test {
-    font-size: 20px;
-    text-align: center;
-  }
-
-
-  /* Navigation Bar */
-  
-  .nav-box ul li {
+body {
   width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  border: 1px solid #555;
-  text-align: left;
-  }
-  .nav-box ul li:hover {
-    background-color: darkkhaki;
-  }
-  .handle-menu{
-    display: block;
-  } 
-  .show-menu {
-    max-height: 20em;
-  }
-
-
-
-
-  /* 460 End */
+  color: white;
+  background-color: #0f0c1b;
+  font-family: "Roboto", sans-serif;
 }
+
+/**********  Variables  **********/
+
+/*# sourceMappingURL=main.css.map */
