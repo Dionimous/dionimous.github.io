@@ -69,4 +69,10 @@ body {
     background-color: #333;
   }
 }
+
+.card {
+  margin-top: 10px;
+  color: white;
+  background-color: darkblue;
+}
 /*# sourceMappingURL=resume.css.map */
