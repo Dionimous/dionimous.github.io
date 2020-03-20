@@ -14,16 +14,11 @@ section#portfolio_logo {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 section.enter_text {
   text-align: center;
+  font-size: 1.5rem;
 }
-section.enter_text  a {
-  font-size: 1rem;
+section.enter_text span {
   font-weight: 900;
-  padding: .5rem 1rem;
-  border: 1px solid darkgray;
-  border-radius: .5rem;
-}
-section.enter_text a:hover {
-  color: white; background-color: black;
 }
