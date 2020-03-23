@@ -6,13 +6,14 @@ html { font-size: 62.5%; }
   --dark-grey: #202020;
 }
 a { color: inherit; text-decoration: none; display: inline-block;}
+.clear { clear: both; }
 
 /* Containers
 ************************************************************** */
 .top_container { height: 15vh;}
 
 .screen_container { 
-  max-width: 1200px; margin: auto; 
+  max-width: 900px; margin: auto; 
 }
 .content_container { 
   max-width: 80%; margin: auto;
@@ -54,23 +55,73 @@ section.enter_text span {
 
 
 
-/* Index Page
+/* Summary Page
 *************************************************************** */
 
 header#summary_main_header {
-  height: 3rem;
+  display: inline-block;
+  width: 55%; height: 3.5rem;
   color: white; background-color: var(--dark-grey);
   border-bottom: 1px solid lightcyan;
 }
+
 header#summary_main_header p#portfolio {
-  font-size: 2rem;
-  letter-spacing: .5rem;
+  display: block;
+  float: left;
+  margin: 8px 20px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: .7rem;
   -webkit-text-fill-color: var(--dark-grey);
-  	-webkit-text-stroke-width: 1px;
-  	-webkit-text-stroke-color: lightcyan;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: lightcyan;
+  padding: .5rem;
+  border-left: 1px dotted lightcyan;
+  border-top: 1px dotted lightcyan;
+  border-right: 1px dotted lightcyan;
+  border-bottom: 3px solid lightcyan;
+}
+header#summary_main_header span {
+  -webkit-text-fill-color: lightcyan;
+  font-weight: bolder;
+}
+nav#main_nav {
+  width: 45%;
+  float: right;
+  color: white; background-color: var(--dark-grey);
+  font-size: .8rem;
+  word-spacing: 2rem;
+  padding: 1.2rem;
+  text-align: right;
+}
+nav#main_nav ul {
+  list-style-type: none;
+  margin-top: 3px;
+}
+nav#main_nav li {
+  display: inline-block;
 }
 
 
+/* Tablet Settings
+*************************************************************** */
+@media(max-width: 750px)
+{
+  header#summary_main_header,
+  nav#main_nav,
+  .content_container
+  {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: auto;
+  }
+  header#summary_main_header p#portfolio {
+    text-align: center;
+  }
+
+}
 
 
 
