@@ -4,16 +4,17 @@ html { font-size: 62.5%; }
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   --dark-grey: #202020;
+  --dark-teal: #164c58;
   --dark-blue: #003848;
   --dark-purple: #171367;
   --light-cyan: #d8f0f8;
   --cyan: #70b8d0;
 }
+body { background-color: var(--dark-grey) }
 a { color: inherit; text-decoration: none; display: inline-block;}
 section { padding: .5rem;}
 .clear { clear: both; }
-
-
+main { background-color: white; }
 
 
 /* Containers
@@ -36,7 +37,10 @@ section { padding: .5rem;}
 header#summary_main_header {
   display: inline-block;
   width: 55%; height: 4rem;
-  color: white; background-color: var(--dark-grey);
+  color: white; background-color: var(--dark-teal);
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 header#summary_main_header p#portfolio {
@@ -50,9 +54,7 @@ header#summary_main_header p#portfolio {
   -webkit-text-fill-color: var(--dark-grey);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: lightcyan;
-  border-left: 1px dotted lightcyan;
-  border-top: 1px dotted lightcyan;
-  border-right: 1px dotted lightcyan;
+  border: 1px dotted lightcyan;
   border-bottom: 5px solid lightcyan;
 }
 header#summary_main_header span {
@@ -62,11 +64,14 @@ header#summary_main_header span {
 nav#main_nav {
   width: 45%;
   float: right;
-  color: white; background-color: var(--dark-grey);
+  color: white; background-color: var(--dark-teal);
   font-size: .8rem;
   word-spacing: 2rem;
-  padding: 1.47rem 1rem;
+  padding: 1.39rem 1rem;
   text-align: right;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 nav#main_nav ul {
   list-style-type: none;
@@ -75,6 +80,10 @@ nav#main_nav ul {
 nav#main_nav li {
   display: inline-block;
 }
+
+
+/* Projects Page
+*************************************************************** */
 
 
 /* Tablet Settings
