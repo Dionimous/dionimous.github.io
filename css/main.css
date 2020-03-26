@@ -34,16 +34,14 @@ main { background-color: white; }
 /* Summary Page
 *************************************************************** */
 
-header#summary_main_header {
-  display: inline-block;
-  width: 55%; height: 4rem;
-  color: white; background-color: var(--dark-teal);
-  border-left: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+nav#main-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: .8rem;
+  color: white; background-color: var(--dark-grey);
 }
-
-header#summary_main_header p#portfolio {
+nav#main-nav  p#portfolio {
   display: block;
   float: left;
   margin: 12px 20px;
@@ -57,28 +55,20 @@ header#summary_main_header p#portfolio {
   border: 1px dotted lightcyan;
   border-bottom: 5px solid lightcyan;
 }
-header#summary_main_header span {
+nav#main-nav span {
   -webkit-text-fill-color: lightcyan;
   font-weight: bolder;
 }
-nav#main_nav {
-  width: 45%;
-  float: right;
-  color: white; background-color: var(--dark-teal);
-  font-size: .8rem;
-  word-spacing: 2rem;
-  padding: 1.39rem 1rem;
-  text-align: right;
-  border-right: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+nav#main-nav ul {
+  display: flex;
 }
-nav#main_nav ul {
+nav#main-nav li {
   list-style-type: none;
-  margin-top: 3px;
+  padding: 1rem;
+  align-self: center;
 }
-nav#main_nav li {
-  display: inline-block;
+nav#main-nav li:hover {
+  background-color: darkblue;
 }
 
 
@@ -90,24 +80,22 @@ nav#main_nav li {
 *************************************************************** */
 @media(max-width: 750px)
 {
-  header#summary_main_header,
-  nav#main_nav,
-  .content_container
-  {
-    display: block;
+  nav#main-nav {
+    justify-content: center;
+  }
+  nav#main-nav p#portfolio {
     width: 100%;
-    float: none;
     text-align: center;
-    margin: auto;
+    padding: 1rem 0;
   }
-  header#summary_main_header p#portfolio {
-    text-align: center;
-  }
-  nav#main_nav {
+  
+  nav#main-nav ul {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
     background-color: var(--dark-blue);
-    padding: .5rem 0;
-    border-top: 1px solid lightskyblue;
   }
+ 
 
 }
 
