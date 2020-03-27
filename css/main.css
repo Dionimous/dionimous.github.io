@@ -17,6 +17,17 @@ section { padding: .5rem;}
 main { background-color: white; }
 .unselected { color: darkgray;}
 
+.text-shadow {
+  color: black;
+  text-shadow:
+   #ffffff 0px 0px 1px,  
+    #ffffff 0px 0px 1px,   
+    #ffffff 0px 0px 1px,
+    #ffffff 0px 0px 1px,   
+    #ffffff 0px 0px 1px,   
+    #ffffff 0px 0px 1px;
+}
+
 
 /* Containers
 ************************************************************** */
@@ -37,8 +48,9 @@ main { background-color: white; }
 
 nav#main-nav {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   font-size: .8rem;
   color: white; background-color: var(--dark-grey);
   border: 1px solid white;
@@ -51,9 +63,7 @@ nav#main-nav  p#portfolio {
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: .7rem;
-  -webkit-text-fill-color: var(--dark-grey);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: lightcyan;
+  
   border: 1px dotted lightcyan;
   border-bottom: 5px solid lightcyan;
 }
