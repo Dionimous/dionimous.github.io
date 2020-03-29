@@ -16,20 +16,18 @@ section { padding: .5rem;}
 
 /* Containers
 ************************************************************** */
-.top_container { height: 15vh;}
-
-.screen_container { 
+.container { 
   max-width: 900px; margin: auto; 
 }
 .content_container { 
-  max-width: 85%; margin: auto;
+  max-width: 80vw; height: 80vh; 
+  margin: 10vh auto;
   border-radius: .5rem;
   box-shadow: black 10px 15px 20px;
   padding: 1rem;
 }
 
-
-/* Index Page
+/* Main Section
 *************************************************************** */
 section#name {
   color: white;
@@ -40,11 +38,9 @@ section#name {
   margin-left: -.2rem;
 }
 
-
 section#type-writer-text {
   font-size: 2rem;
 }
-
 
 section.enter_text {
   text-align: center;
