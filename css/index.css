@@ -36,10 +36,12 @@ section#name {
   font-weight: lighter;
   text-shadow: black 8px 7px 10px;
   margin-left: -.2rem;
+  text-align: center;
 }
 
 section#type-writer-text {
   font-size: 2rem;
+  text-align: center;
 }
 
 section.enter_text {
@@ -54,25 +56,42 @@ section.enter_text span {
 }
 
 
-/* Mobile Settings
+/* Mobile Settings Portrait
 *************************************************************** */
-@media(max-width: 600px)
+@media(max-width: 550px)
 {
+  .content_container { 
+    max-width: 80vw; height: 80vh; 
+    margin: 5vh auto;
+  }
   section#name {
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: .5rem;
     font-weight: 100;
     text-shadow: black 4px 4px 5px;
   }
 
   section#type-writer-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   section.enter_text,
   section.enter_text span 
   {
     font-size: 1rem;
+  } 
+}
+
+/* Mobile Settings Landscape
+*************************************************************** */
+@media(max-height: 500px) 
+{
+  section#name {
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-shadow: black 8px 7px 10px;
+    margin-left: -.2rem;
   }
-  
 }
