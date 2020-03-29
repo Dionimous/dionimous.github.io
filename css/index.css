@@ -1,4 +1,4 @@
-html { font-size: 62.5%; }
+html { font-size: 62.5%; background: linear-gradient(120deg, #fff, rgb(182, 182, 182));}
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
   font-size: 1.5rem;
@@ -17,9 +17,11 @@ section { padding: .5rem;}
 /* Containers
 ************************************************************** */
 .container { 
-  max-width: 900px; margin: auto; 
+  max-width: 900px; margin: auto;
+  
 }
 .content_container { 
+  background-color: white;
   max-width: 80vw; height: 80vh; 
   margin: 10vh auto;
   border-radius: .5rem;
@@ -42,6 +44,10 @@ section#name {
 section#type-writer-text {
   font-size: 2rem;
   text-align: center;
+}
+section#type-writer-text p#hello_world {
+  font-weight: bolder;
+  margin-bottom: 1rem;
 }
 
 section.enter_text {
