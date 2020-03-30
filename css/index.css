@@ -40,6 +40,14 @@ section#name {
   margin-left: -.2rem;
   text-align: center;
 }
+section#portfolio_logo .portfolio_image {
+  width: 100%; height: 50px;
+  margin: auto;
+  background-image: url(../img/portfolio_logo_web@1000.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 section#type-writer-text-effect {
   font-size: 1.5rem;
@@ -92,12 +100,21 @@ section.enter_btn span {
 *************************************************************** */
 @media(max-height: 500px) 
 {
+  .content_container { 
+    padding: .5rem;
+  }
   section#name {
     color: white;
-    letter-spacing: 1rem;
     font-size: 1rem;
+    letter-spacing: .5rem;
     font-weight: lighter;
-    text-shadow: black 8px 7px 10px;
-    margin-left: -.2rem;
+    text-shadow: black 5px 5px 7px;
+    text-align: center;
   }
+  section#portfolio_logo .portfolio_image {
+    width: 75%; height: 100px;
+  background-image: url(../img/portfolio_logo_web@500.jpg);
+  }
+  
+  
 }
