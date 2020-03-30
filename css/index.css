@@ -41,21 +41,26 @@ section#name {
   text-align: center;
 }
 
-section#type-writer-text {
-  font-size: 2rem;
+section#type-writer-text-effect {
+  font-size: 1.5rem;
   text-align: center;
 }
-section#type-writer-text p#hello_world {
+section#type-writer-text-effect p#hello_world {
   font-weight: bolder;
   margin-bottom: 1rem;
 }
+section#type-writer-text-effect p#job_title {
+  font-size: 1.25rem;
+}
 
-section.enter_text {
+/* Enter Button */
+
+section.enter_btn {
   text-align: center;
   font-size: 2rem;
   font-weight: lighter;
 }
-section.enter_text span {
+section.enter_btn span {
   font-size: 2.25rem;
   font-family: Impact;
   font-weight: bolder;
@@ -71,7 +76,7 @@ section.enter_text span {
     margin: 5vh auto;
   }
   section#name {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     letter-spacing: .5rem;
     font-weight: 100;
     text-shadow: black 4px 4px 5px;
@@ -81,11 +86,6 @@ section.enter_text span {
     font-size: 1.1rem;
   }
 
-  section.enter_text,
-  section.enter_text span 
-  {
-    font-size: 1rem;
-  } 
 }
 
 /* Mobile Settings Landscape
