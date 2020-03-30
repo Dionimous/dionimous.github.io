@@ -60,6 +60,7 @@ section#type-writer-text-effect p#job_title {
   font-size: 1.25rem;
 }
 
+
 /* Enter Button */
 
 section.enter_btn {
@@ -110,7 +111,7 @@ section.enter_btn span {
     font-size: 1rem;
     letter-spacing: .5rem;
     font-weight: lighter;
-    text-shadow: black 4px 4px 5px;
+    text-shadow: black 4px 3px 4px;
     text-align: center;
   }
   section#portfolio_logo img {
@@ -125,6 +126,7 @@ section.enter_btn span {
     letter-spacing: 1rem;
     margin: .5rem 0;
   }
+ 
   section#type-writer-text-effect  {
     font-size: 1rem;
   }
