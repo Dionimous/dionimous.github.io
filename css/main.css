@@ -14,7 +14,6 @@ body { background-color: var(--dark-grey) }
 a { color: inherit; text-decoration: none; display: inline-block;}
 section { padding: .5rem;}
 .clear { clear: both; }
-main { background-color: white; }
 .unselected { color: darkgray;}
 
 .text-shadow {
@@ -44,7 +43,7 @@ main { background-color: white; }
   padding: 1rem;
 }
 
-/* Summary Page
+/* Navigation Settings
 *************************************************************** */
 
 nav#main-nav {
@@ -55,6 +54,7 @@ nav#main-nav {
   font-size: .8rem;
   color: white; background-color: var(--dark-grey);
   border: 1px solid white;
+  margin-bottom: 1rem;
 }
 nav#main-nav  p#portfolio {
   display: block;
@@ -85,8 +85,21 @@ nav#main-nav li:hover {
 }
 
 
-/* Projects Page
+
+
+/* Summary Section
 *************************************************************** */
+section#summary {
+  color: white;
+  width: 100%; margin: auto;
+  text-align: center;
+  border: 1px solid white;
+}
+section#summary img {
+  padding: inline-block;
+  margin: 1rem 0;
+}
+
 
 
 /* Tablet Settings
