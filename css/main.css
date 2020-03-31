@@ -98,6 +98,8 @@ section#summary {
 section#summary img {
   padding: inline-block;
   margin: 1rem 0;
+  border: 7px solid white;
+  border-radius: 50%;
 }
 
 
