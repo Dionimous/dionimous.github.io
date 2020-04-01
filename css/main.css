@@ -23,9 +23,9 @@ section { padding: .5rem;}
     #ffffff 0px 0px 1px,   
     #ffffff 0px 0px 1px,
     #ffffff 0px 0px 1px,   
+    #ffffff 0px 0px 1px, 
     #ffffff 0px 0px 1px,
-    #ffffff 0px 0px 5px,   
-    #ffffff 0px 0px 1px;
+    #ffffff 0px 0px 5px;
 }
 
 
@@ -55,7 +55,7 @@ nav#main-nav {
   font-size: .8rem;
   color: white; background-color: var(--dark-grey);
   border: 1px solid white;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 nav#main-nav  p#portfolio {
   display: block;
@@ -95,6 +95,7 @@ section#summary {
   width: 100%; margin: auto;
   text-align: center;
   border: 1px solid white;
+  margin-bottom: .5rem;
 }
 section#summary img {
   padding: inline-block;
@@ -102,6 +103,26 @@ section#summary img {
   border: 7px solid white;
   border-radius: 50%;
 }
+
+/* Footer Section
+*************************************************************** */
+footer {
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  padding: .5rem;
+}
+footer ul{
+  list-style-type: none;
+}
+footer li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+footer li:last-child {
+  margin-right: 0;
+}
+
 
 
 
