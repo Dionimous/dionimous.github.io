@@ -1,4 +1,4 @@
-html { font-size: 62.5%; background: linear-gradient(120deg, #fff, rgb(182, 182, 182));}
+html { font-size: 62.5%; background-color: darkgrey;}
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
   font-size: 1.5rem;
@@ -18,11 +18,10 @@ section { padding: .5rem;}
 ************************************************************** */
 .container { 
   max-width: 900px; margin: auto;
-  
 }
 .content_container { 
+  max-width: 80vw;
   background-color: white;
-  max-width: 80vw; height: 80vh; 
   margin: 10vh auto;
   border-radius: .5rem;
   box-shadow: black 10px 15px 20px;
