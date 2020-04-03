@@ -1,7 +1,8 @@
 html { font-size: 62.5%; background-color: darkgrey;}
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-size: calc( .8rem + 1vw);
   font-family: Arial, Helvetica, sans-serif;
   --dark-grey: #202020;
   --dark-blue: #003848;
@@ -22,7 +23,7 @@ section { padding: .5rem;}
 .content_container { 
   max-width: 80vw;
   background-color: white;
-  margin: 7vh auto;
+  margin: 5vh auto;
   border-radius: .5rem;
   box-shadow: black 10px 15px 20px;
   padding: 1rem;
