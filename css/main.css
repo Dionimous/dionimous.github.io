@@ -47,7 +47,7 @@ nav#main-nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-size: .8rem;
-  color: white; background-color: var(--dark-grey);
+  color: white; background-color: black;
   border: 1px solid white;
   margin-bottom: .5rem;
 }
@@ -56,12 +56,9 @@ nav#main-nav  p#portfolio {
   float: left;
   margin: 12px 20px;
   padding: .5rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 100;
   letter-spacing: .7rem;
-  
-  border: 1px dotted lightcyan;
-  border-bottom: 5px solid lightcyan;
 }
 nav#main-nav span {
   -webkit-text-fill-color: lightcyan;
@@ -133,8 +130,8 @@ footer li:last-child {
   nav#main-nav ul {
     width: 100%;
     flex-direction: row;
-    justify-content: center;
-    background-color: var(--dark-blue);
+    justify-content: space-evenly;
+    background: linear-gradient(rgb(0, 0, 0), rgb(63, 62, 62));
     border-top: 5px solid white;
   }
  
