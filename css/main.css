@@ -25,6 +25,7 @@ section { padding: .5rem;}
 
 
 
+
 /* Containers
 ************************************************************** */
 .top_container { height: 2vh;}
@@ -59,18 +60,19 @@ nav#main-nav {
 }
 nav#main-nav  p#portfolio {
   display: block;
-  float: left;
   margin: 12px 20px;
   padding: .5rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 100;
-  letter-spacing: .7rem;
+  letter-spacing: .5rem;
+
   text-shadow: 
     0 0 1px var(--glow-color),
     0 0 1px var(--glow-color),
     0 0 1px var(--glow-color),
-    0 0 10px var(--glow-color),
-    0 0 10px var(--glow-color);
+    0 0 .5rem var(--glow-color),
+    0 0 .5rem var(--glow-color);
+  
 }
 nav#main-nav span {
   font-weight: bolder;
@@ -78,11 +80,11 @@ nav#main-nav span {
 nav#main-nav ul {
   display: flex;
   color: white;
+  align-items: center;
 }
 nav#main-nav li {
   list-style-type: none;
   padding: 1rem;
-  align-self: center;
 }
 
 
@@ -113,7 +115,7 @@ footer {
   padding: .5rem;
 }
 footer ul{
-  list-style-type: none;
+  font-size: 1.2rem;
 }
 footer li {
   display: inline-block;
@@ -146,21 +148,11 @@ footer li:last-child {
     justify-content: space-evenly;
     background: linear-gradient(rgb(0, 0, 0), rgb(63, 62, 62));
   }
+  nav#main-nav li {
+    padding: .5rem;
+  }
  
 
 }
 
 
-/*
-.text-shadow {
-  color: black;
-  text-shadow:
-   #ffffff 0px 0px 1px,  
-    #ffffff 0px 0px 1px,   
-    #ffffff 0px 0px 1px,
-    #ffffff 0px 0px 1px,   
-    #ffffff 0px 0px 1px, 
-    #ffffff 0px 0px 1px,
-    #ffffff 0px 0px 5px;
-}
-*/
