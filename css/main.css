@@ -60,9 +60,9 @@ nav#main-nav {
 }
 nav#main-nav  p#portfolio {
   display: block;
-  margin: 12px 20px;
+  margin-left: 1rem;
   padding: .5rem;
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   font-weight: 100;
   letter-spacing: .5rem;
 
@@ -130,7 +130,7 @@ footer li:last-child {
 
 /* Tablet Settings
 *************************************************************** */
-@media(max-width: 750px)
+@media(max-width: 700px)
 {
   nav#main-nav {
     flex-direction: column;
@@ -140,6 +140,7 @@ footer li:last-child {
     width: 100%;
     text-align: center;
     padding: .5rem 0;
+    margin: 0;
   }
   
   nav#main-nav ul {
