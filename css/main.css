@@ -18,10 +18,10 @@ section { padding: .5rem;}
 
 /* Containers
 ************************************************************** */
-.top_container { height: 2vh;}
+
 
 .content_container { 
-  max-width: calc(100% - 20%); margin: auto;
+  max-width: calc(100% - 20%); margin: 5vh auto;
   background: linear-gradient(120deg, rgb(61, 61, 61), rgb(44, 44, 44));
   padding: .5rem;
   box-shadow: black 5px 5px 30px;
@@ -66,8 +66,9 @@ section { padding: .5rem;}
 }
 .main__nav li {
   list-style: none;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
+
 
 /* Summary Section
 *************************************************************** */
@@ -112,15 +113,17 @@ footer li:last-child {
 @media(max-width: 650px)
 {
   .content_container { 
-    max-width: calc(100% - 5%); margin: auto;
+    max-width: calc(100% - 5%); margin: 2vh auto;
   }
   .main-header, 
   .main__nav { 
     flex: 1 1 100%;
   }
 
- 
-  
+  .portfolio__container-text {
+    text-align: center;
+  }
+
   .main__nav ul {
     display: flex;
     justify-content: space-evenly;
