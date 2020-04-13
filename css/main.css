@@ -15,7 +15,7 @@ html { font-size: 62.5%; height: 100vh; background-color: var(--dark-gray) }
   --light-gray: #c8c8c8;
   
   
-  --glow-color: #d8d078;
+  --glow-color: #fffb00;
   --dark-orange: #d8d078;
 
 
@@ -69,6 +69,8 @@ section { padding: .5rem;}
     0 0 .5rem var(--glow-color);
 }
 .portfolio__container-greater {
+  color:  var(--glow-color);
+  text-shadow: none;
   margin-top: 1rem;
   font-family: Impact;
 }
@@ -92,15 +94,25 @@ section { padding: .5rem;}
 
 /* Summary Section
 *************************************************************** */
-section#summary {
+.summary {
   color: var(--light-gray);
   width: 100%; margin: auto;
   text-align: center;
   border: 1px solid gray;
 }
-section#summary img {
+.summary-container {
+  min-width: 20%;
+}
+.summary-container p {
   display: inline-block;
-  margin: 1rem 0;
+  min-width: 100;
+  color: var(--dark-gray); background-color: var(--glow-color);
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+.summary-container img {
+  display: inline-block;
+  min-width: 100%;
   border: 1px solid var(--glow-color);
 }
 
@@ -146,7 +158,7 @@ footer li:last-child {
   }
 
   .main__nav {
-    background-color: var(--mid-gray);
+    background-color: black;
   }
 
   .main__nav ul {
