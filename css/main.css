@@ -158,7 +158,8 @@ footer li:last-child {
   }
 
   .main__nav {
-    background-color: black;
+    background: linear-gradient(var(--primary-black), #3a3a3a );
+    border: 2px solid black;
   }
 
   .main__nav ul {
