@@ -1,147 +1,43 @@
-html { font-size: 62.5%; background-color: darkgrey;}
 * { margin: 0; padding: 0; box-sizing: border-box; }
-:root {
-  font-size: 1rem;
-  font-size: calc( .8rem + 1vw);
+a { color: inherit; text-decoration: none; display: inline-block; }
+
+body {
   font-family: Arial, Helvetica, sans-serif;
-  --dark-grey: #202020;
-  --dark-blue: #003848;
-  --dark-purple: #171367;
-  --light-cyan: #d8f0f8;
-  --cyan: #70b8d0;
-}
-a { color: inherit; text-decoration: none; display: inline-block;}
-section { padding: .5rem;}
-.clear { clear: both; }
-
-
-/* Containers
-************************************************************** */
-.container { 
-  max-width: 900px; margin: auto;
-}
-.content_container { 
-  max-width: 80vw;
-  background-color: white;
-  margin: 5vh auto;
-  border-radius: .5rem;
-  box-shadow: black 10px 15px 20px;
-  padding: 1rem;
+  height: 100vh;
+  color: #ccc; background-color: darkblue;
+  overflow: hidden;
 }
 
-/* Main Section
-*************************************************************** */
-section#name {
-  color: white;
-  letter-spacing: 1rem;
-  font-size: 2rem;
-  font-weight: lighter;
-  text-shadow: black 8px 7px 10px;
-  margin-left: -.2rem;
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-section#portfolio_logo {
-  text-align: center;
+h1, h2 { 
+  font-weight: 200;
+  margin: .5em;
 }
-section#portfolio_logo #portfolio_backup {
-  display: none;
+h1 {
+  font-size: 2.5rem;
 }
 
-
-section#type-writer-text-effect {
-  font-size: 1.5rem;
-  text-align: center;
-}
-section#type-writer-text-effect p#hello_world {
-  font-weight: bolder;
-  margin-bottom: 1rem;
-}
-section#type-writer-text-effect p#job_title {
-  font-size: 1.25rem;
-}
+/* **************************************************
+ * Cursor
+ ************************************************* */
+ .txt-type > .txt {
+  border-right: 1px solid #ccc; 
+  padding-right: .1em;
+ }
 
 
-/* Enter Button */
 
-section.enter_btn {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: lighter;
-}
-section.enter_btn span {
-  font-size: 2.25rem;
-  font-family: Impact;
-  font-weight: bolder;
-}
-
-
-/* Mobile Settings Portrait
-*************************************************************** */
-@media(max-width: 550px)
-{
-  .content_container { 
-    max-width: 80vw; height: 80vh; 
-    margin: 5vh auto;
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 4rem;
   }
-  section#name {
-    font-size: 1.5rem;
-    letter-spacing: .5rem;
-    font-weight: 100;
-    text-shadow: black 4px 4px 5px;
+  h2 {
+    font-size: 2rem;
   }
-
-  section#type-writer-text {
-    font-size: 1.1rem;
-  }
-
-}
-
-/* Mobile Settings Landscape
-*************************************************************** */
-@media(max-height: 500px) 
-{
-  .content_container { 
-    padding: .5rem;
-  }
-  section {
-    padding: 0;
-  }
-  section#name {
-    color: white;
-    font-size: 1rem;
-    letter-spacing: .5rem;
-    font-weight: lighter;
-    text-shadow: black 4px 3px 4px;
-    text-align: center;
-  }
-  section#portfolio_logo img {
-    display: none;
-  } 
-  section#portfolio_logo #portfolio_backup {
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    padding: .5rem;
-    border: 1px solid black;
-    letter-spacing: 1rem;
-    margin: .5rem 0;
-  }
- 
-  section#type-writer-text-effect  {
-    font-size: 1rem;
-  }
-  section#type-writer-text-effect p#hello_world {
-    font-weight: bolder;
-    margin-bottom: 0;
-  }
-  section#type-writer-text-effect p#job_title {
-    font-size: 1rem;
-  }
-  section.enter_btn, 
-  section.enter_btn span {
-    font-size: 1rem;
-    margin-top: .5rem;
-  }
-  
-  
 }
