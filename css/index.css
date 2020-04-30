@@ -41,6 +41,7 @@ body {
   margin-bottom: .5em;
 }
 .flex-container h2 { 
+  font-size: 2rem;
   margin: 1em 0;
 }
 .flex-container p {
@@ -48,8 +49,9 @@ body {
   margin-bottom: 1em;
 }
 .flex-container a {
+  font-size: 1.25rem;
   padding: .25em .5em;
-  border: 1px solid rgb(46, 46, 46);
+  border: 1px solid rgb(109, 109, 109);
 }
 
 
@@ -70,6 +72,6 @@ body {
   text-shadow: 3px 3px 3px black;
   }
   .flex-container h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
