@@ -35,12 +35,12 @@ body {
 .flex-container h1 {
   color: white; 
   font-size: 3rem;
+  font-weight: 100;
   font-weight: bolder;
   text-shadow: 5px 5px 5px black;
   margin-bottom: .5em;
 }
 .flex-container h2 { 
-  font-weight: 100;
   margin: 1em 0;
 }
 .flex-container p {
