@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
+  background: linear-gradient(120deg, rgb(207, 207, 207), #8b8b8b)
 }
 
 .flex-container {
@@ -25,7 +25,7 @@ body {
   height: 80%;
   background-color: white;
   border-radius: .5em;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
 
   display: flex;
   flex-direction: column;
@@ -49,9 +49,10 @@ body {
   margin-bottom: 1em;
 }
 .flex-container a {
+  color: white; background-color: darkslategray;
   font-size: 1.25rem;
-  padding: .25em .5em;
-  border: 1px solid rgb(109, 109, 109);
+  padding: .5em 1em;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, .5);
 }
 
 
