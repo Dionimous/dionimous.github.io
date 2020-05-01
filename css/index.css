@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(120deg, rgb(207, 207, 207), #8b8b8b)
+  background: linear-gradient(120deg, rgb(207, 207, 207), #646464)
 }
 
 .flex-container {
@@ -25,7 +25,7 @@ body {
   height: 80%;
   background-color: white;
   border-radius: .5em;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
 
   display: flex;
   flex-direction: column;
@@ -37,15 +37,17 @@ body {
   font-size: 3rem;
   font-weight: 100;
   font-weight: bolder;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 7px 7px 8px rgba(0, 0, 0, .7);
   margin: 1rem;
 }
 .flex-container h2 { 
   font-size: 2rem;
   margin: 1rem;
+  font-weight: 500;
 }
 .flex-container p {
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 .flex-container a {
   color: white; background-color: rgb(63, 63, 63);
@@ -70,7 +72,7 @@ body {
 @media(max-width: 500px) {
   .flex-container h1 {
   font-size: 2.25rem;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, .7);
   }
   .flex-container h2 {
     font-size: 1.5rem;
