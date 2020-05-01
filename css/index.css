@@ -22,7 +22,8 @@ body {
 .flex-container {
   width: 90%; height: 95%; 
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
+  padding: 2em;
   
   background-color: white;
   border-radius: .5em;
@@ -84,6 +85,10 @@ body {
 
 
 @media(max-width: 500px) {
+
+  .flex-container {
+    padding: 0em;
+  }
 
   .flex-container h1 {
   font-size: 3.8rem;
