@@ -78,6 +78,9 @@ section { padding: .5rem;}
 
 @media(max-width: 575px)
 {
+  :root {
+    background-color: #222222;
+  }
   .container {
     width: 100%;
     margin: 0 auto;
@@ -128,7 +131,7 @@ section { padding: .5rem;}
   margin-bottom: .5em;
 }
 .summary-header-equal {
-  font-weight: 100;
+  font-weight: 900;
 }
 .summary-container img {
   display: inline-block;
@@ -136,7 +139,7 @@ section { padding: .5rem;}
 }
 .summary-content-text {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 100;
   padding: .5em 0;
 }
 
