@@ -40,8 +40,8 @@ section { padding: .5rem;}
   box-shadow: 0px 0px 3px white;
 }
 .header_logo_container-text {
-  color: black; background: linear-gradient(rgb(20, 20, 20), rgb(49, 49, 49) );
-  font-size: 3rem;
+  color: black; background: linear-gradient(#303030, #000000);
+  font-size: 3.25rem;
   text-align: center;
   letter-spacing: .1em;
   padding: .25em .5em .5em .5em;
@@ -75,7 +75,7 @@ section { padding: .5rem;}
 *  Mobile Settings
 *************************************************************** */
 
-@media(max-width: 550px)
+@media(max-width: 575px)
 {
   .container {
     margin: 3vh auto;
@@ -116,26 +116,28 @@ section { padding: .5rem;}
 /* Summary Section
 *************************************************************** */
 .summary {
-  color: var(--light-gray);
+  color: black; background-color: white;
   width: 100%; margin: auto;
   text-align: center;
-  border: 1px solid gray;
+  border: 1px solid black;
 }
-.summary-container {
-  min-width: 20%;
-}
+
 .summary-container p {
   display: inline-block;
-  min-width: 100;
-  color: var(--dark-gray); background-color: var(--glow-color);
-  font-size: 1.5rem;
+  font-size: 3rem;
+  font-weight: 900;
   padding: .5rem;
 }
 .summary-container img {
   display: inline-block;
-  min-width: 100%;
-  border: 1px solid var(--glow-color);
+  font-size: 2rem;
 }
+.summary-content-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
 
 /* Social Media Navigation
 *************************************************************** */
