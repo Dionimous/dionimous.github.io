@@ -99,16 +99,13 @@ section { padding: .5rem;}
     margin-top: 1em;
 
     background-color: rgb(31, 31, 31);
-    border: 2px solid black;
   }
 
   .main_nav ul {
     justify-content: space-evenly;
-
     font-size: 1.4rem;
   }
   .main_nav li {
-
   padding: .5rem 2rem;
   }
  
@@ -171,7 +168,7 @@ svg path {
 .social-media-nav-list li {
   background: linear-gradient(#414141, #000000);
   list-style-type: none;
-  margin-left: .5em;
+  margin: .5em 1em;
   padding: .5em 1em;
   border-radius: 1em;
   border: 1px solid rgb(83, 83, 83);
