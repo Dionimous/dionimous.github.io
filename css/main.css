@@ -40,7 +40,7 @@ body {
 *************************************************************** */
 .header-top {
   width: 100%;
-  background-color:  #111111;
+  background-color:  #222222;
 
   display: flex;
   flex-flow: row wrap;
@@ -92,13 +92,12 @@ body {
   }
   .header-top-logo-text {
     flex: 1 1 100%;
-    font-size: 4.75rem;
+    font-size: 5rem;
     text-align: center;
   }
 
   .main_nav {
     width: 100%;
-    margin-top: 1em;
     background-color: rgb(31, 31, 31);
   }
 
