@@ -9,12 +9,19 @@ html { font-size: 62.5%; height: 100vh;  }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 a { color: inherit; text-decoration: none; display: inline-block;}
 p { line-height: 1.2em;}
+img { width: 100%; }
 section { padding: .5rem;}
 
 svg {
+  height: 300px;
+}
+
+.fa-envelope-open-text,
+.fa-linkedin-in,
+.fa-instagram {
   height: 30px;
 }
-svg path {
+ path {
   fill: white;
 }
 
@@ -24,7 +31,7 @@ svg path {
 .devices-container { 
   width: 95%; max-width: 1200px; 
   margin: 2vh auto;
-  border-top: 1px solid rgb(110, 110, 110);
+  border-top: 1px solid rgb(65, 65, 65);
 }
 
 /* Header Settings
@@ -40,7 +47,7 @@ body {
 *************************************************************** */
 .header-top {
   width: 100%;
-  background-color:  #222222;
+  background-color: black;
 
   display: flex;
   flex-flow: row wrap;
@@ -49,7 +56,7 @@ body {
 }
 
 .header-top-logo-text {
-  color: black; background: linear-gradient(#303030, #000000);
+  color: black; background: linear-gradient(#222222, #000000);
   font-size: 3.25rem;
   letter-spacing: .1em;
   padding: .05em .3em .18em .4em;
@@ -72,7 +79,7 @@ body {
   list-style: none;
   margin-right: 1em;
   padding: .5rem 1.5rem;
-  background: linear-gradient(rgb(0, 0, 0), rgb(53, 53, 53)  );
+  background: linear-gradient(rgb(53, 53, 53), rgb(0, 0, 0) );
   border: 1px solid rgb(68, 68, 68);
 }
 
@@ -95,7 +102,7 @@ body {
 
   .main_nav {
     width: 100%;
-    background-color: rgb(31, 31, 31);
+    background-color: black;
   }
 
   .main_nav ul {
@@ -150,7 +157,7 @@ body {
   width: 100%;
   margin: 0 auto; 
   display: inline-block;
-  background: linear-gradient(#303030, #000000);
+  background: linear-gradient(#222222, #000000);
   padding: .5em 0;
   overflow: hidden;
 }
