@@ -1,0 +1,292 @@
+html { font-size: 62.5%; }
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc( .8rem + 1vw);
+  line-height: 1.4em;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+a { color: inherit; text-decoration: none; display: inline-block; }
+img { width: 100%; display: inline-block;}
+
+label, textarea { display: block; }
+input, button { border: none;}
+svg { width: 100px; margin: 0 auto;}
+label { margin: .5em 0; }
+
+[type="text"],
+[type="email"] {
+  font-size: 1rem;
+  padding: .5em;
+}
+[type="submit"]:focus,
+[type="text"]:focus,
+[type="email"]:focus,
+[name="message"]:focus {
+  outline: 3px solid darkorange;
+}
+
+
+/* Containers
+ ********************************************************* */
+.devices-container { 
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.active { 
+  color: orange; 
+  border-bottom: 2px solid darkorange;
+}
+
+.btn {
+  display: inline-block;
+  color: white; background-color: darkorange;
+  font-size: 1rem;
+  padding: .5em 1em;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: rgb(179, 99, 2);
+}
+
+.dark-content {
+  color: white; background-color: #444444;
+  padding: 1em;
+}
+.light-content { 
+  border: 1px solid #444444;
+  padding: 1em;
+}
+.black-content {
+  color: whitesmoke; background-color: #444444;
+  padding: 1em;
+  border-radius: .5em;
+}
+
+/*  Header Section
+****************************************************** */
+.top-header {
+  width: 100%;
+  color: white; background-color: #444444;
+  padding: 1em;
+  border-bottom: 3px solid darkorange;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-header-logo-container {
+  width: 12em;
+  color: white; background-color:darkorange;
+  text-align: center;
+}
+.top-header-logo-text {
+  color: white;
+  text-align: center;
+  padding: .5em 0;
+  border: white 1px solid;
+}
+.top-header-logo-acme {
+  color: #555555;
+  font-weight: 900;
+}
+.top-header-nav {
+  flex: 1 1 50%;
+}
+.top-header-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-header-nav li {
+  list-style-type: none;
+  margin-right: 2em;
+}
+.top-header-nav li:last-child {
+  margin-right: 0em;
+}
+
+
+/*  Company Intro
+****************************************************** */
+.intro {
+  width: 100%;
+  min-height: 40vh;
+  color: white;
+  background-image: url(../img/bg1@700.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  padding: 1em;
+}
+.intro-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+
+/*  Newsletter Sign-in
+****************************************************** */
+.newsletter {
+  color: white; background-color: #444444;
+  padding: 1em;
+}
+.newsletter  h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.newsletter-form {
+  margin: 1em auto;
+  text-align: center;
+}
+
+
+
+/*  3 columns Experiences
+****************************************************** */
+.three-columns {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.column {
+  width:  30%;
+  border: 1px solid black;
+  text-align: center;
+}
+.three-columns-images-caption {
+  color: white; background-color: black;
+  padding: .5em;
+}
+.social {
+  padding: 1em;
+}
+
+/*  Footer Section
+*******************************************************/
+footer {
+  color: white; background-color: darkorange;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1em;
+}
+
+/*******************************************************
+* About Us Page
+********************************************************/
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  margin: .5em auto; 
+}
+.about-us,
+.what-we-do {
+  width: 48%;
+}
+.about-us-title,
+.what-we-do-title {
+ margin-bottom: 1em;
+}
+
+
+
+
+
+/*******************************************************
+* Services Section
+********************************************************/
+.services__services-prices-box {
+  border: 1px solid #444444;
+  margin: .5em;
+  padding: 1em;
+  font-size: .8rem;
+  border-radius: .5em;
+}
+
+.services__quote-form {
+  border: 1px solid #444444;
+  padding: 1em;
+  margin: .5em;
+}
+
+
+
+
+
+
+/*******************************************************
+* Mobile Section
+********************************************************/
+@media (max-width: 550px) {
+  .top-header-logo-container {
+    width: 100%;
+  }
+  .top-header-nav {
+    flex: 1 1 100%;
+    margin-top: 1em;
+  }
+  .top-header-nav ul {
+    justify-content: space-evenly;
+  }
+  .top-header-logo-text {
+    font-size: 1.5rem;
+  }
+  .newsletter-form [type="email"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  [type="text"],
+[type="email"],
+[name="message"] {
+  width: 100%;
+}
+
+
+
+
+/* About Us Page
+********************************************************/
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+
+  margin: 1em 0;
+}
+.about-us-title,
+.what-we-do-title {
+ text-align: center;
+}
+.about-us,
+.what-we-do {
+  width: 100%;
+}
+.about-us {
+  margin-bottom: 1em;
+}
+
+
+}
+/* Small Devices
+*********************************************************/
+@media(max-width: 400px) {
+  .three-columns {
+    flex-flow: column wrap;
+  }
+  .column {
+    width: 100%;
+    margin: 1em 0;
+  }
+  .three-columns-images-caption {
+    font-size: 1.5rem;
+  }
+}
