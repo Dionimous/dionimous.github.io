@@ -68,6 +68,8 @@ label { margin: .5em 0; }
   border-radius: .5em;
 }
 
+
+
 /*  Header Section
 ****************************************************** */
 .header-main{
@@ -113,9 +115,20 @@ label { margin: .5em 0; }
 }
 
 
+/*  Footer Section
+*******************************************************/
+footer {
+  color: white; background-color: darkorange;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1em;
+}
+
+
+
 /*  Company Intro
 ****************************************************** */
-.intro {
+.company-intro {
   width: 100%;
   min-height: 40vh;
   color: white;
@@ -126,10 +139,11 @@ label { margin: .5em 0; }
 
   padding: 1em;
 }
-.intro-title {
+.company-intro-title {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 1rem 0;
+  line-height: 1.5;
 }
 
 
@@ -158,7 +172,7 @@ label { margin: .5em 0; }
   border: 1px solid black;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .column {
   width:  30%;
@@ -173,14 +187,7 @@ label { margin: .5em 0; }
   padding: 1em;
 }
 
-/*  Footer Section
-*******************************************************/
-footer {
-  color: white; background-color: darkorange;
-  text-align: center;
-  font-size: 1rem;
-  padding: 1em;
-}
+
 
 /*******************************************************
 * About Us Page
@@ -194,10 +201,7 @@ footer {
 .about-us,
 .what-we-do {
   width: 48%;
-}
-.about-us-title,
-.what-we-do-title {
- margin-bottom: 1em;
+  margin: 0 .5em;
 }
 
 
@@ -271,7 +275,7 @@ footer {
   }
   .about-us,
   .what-we-do {
-    width: 100%;
+    width: 95%;
   }
   .about-us {
     margin-bottom: 1em;
