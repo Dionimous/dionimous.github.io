@@ -25,10 +25,14 @@ label { margin: .5em 0; }
   outline: 3px solid darkorange;
 }
 
+[name="message"] {
+  width: 100%;
+}
+
 
 /* Containers
  ********************************************************* */
-.devices-container { 
+.rwd-container { 
   width: 100%;
   max-width: 1200px; 
   margin: 0 auto; 
@@ -66,7 +70,7 @@ label { margin: .5em 0; }
 
 /*  Header Section
 ****************************************************** */
-.top-header {
+.header-main{
   width: 100%;
   color: white; background-color: #444444;
   padding: 1em;
@@ -78,33 +82,33 @@ label { margin: .5em 0; }
   align-items: center;
 }
 
-.top-header-logo-container {
+.header-main-logo-container {
   width: 12em;
   color: white; background-color:darkorange;
   text-align: center;
 }
-.top-header-logo-text {
+.header-main-logo-text {
   color: white;
   text-align: center;
   padding: .5em 0;
   border: white 1px solid;
 }
-.top-header-logo-acme {
+.header-main-logo-acme {
   color: #555555;
   font-weight: 900;
 }
-.top-header-nav {
+.header-main-nav {
   flex: 1 1 50%;
 }
-.top-header-nav ul {
+.header-main-nav ul {
   display: flex;
   justify-content: flex-end;
 }
-.top-header-nav li {
+.header-main-nav li {
   list-style-type: none;
   margin-right: 2em;
 }
-.top-header-nav li:last-child {
+.header-main-nav li:last-child {
   margin-right: 0em;
 }
 
@@ -216,6 +220,9 @@ footer {
   padding: 1em;
   margin: .5em;
 }
+.services__quote-btn {
+  margin-top: 1em;
+}
 
 
 
@@ -223,20 +230,20 @@ footer {
 
 
 /*******************************************************
-* Mobile Section
+* Medium Size Devices
 ********************************************************/
 @media (max-width: 550px) {
-  .top-header-logo-container {
+  .header-main-logo-container {
     width: 100%;
   }
-  .top-header-nav {
+  .header-main-nav {
     flex: 1 1 100%;
     margin-top: 1em;
   }
-  .top-header-nav ul {
+  .header-main-nav ul {
     justify-content: space-evenly;
   }
-  .top-header-logo-text {
+  .header-main-logo-text {
     font-size: 1.5rem;
   }
   .newsletter-form [type="email"] {
@@ -245,37 +252,39 @@ footer {
     margin-bottom: 1em;
   }
   [type="text"],
-[type="email"],
-[name="message"] {
-  width: 100%;
+  [type="email"],
+  [name="message"] {
+    width: 100%;
 }
 
-
-
-
-/* About Us Page
-********************************************************/
+/* About Us Page */
 .main {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 
-  margin: 1em 0;
-}
-.about-us-title,
-.what-we-do-title {
- text-align: center;
-}
-.about-us,
-.what-we-do {
-  width: 100%;
-}
-.about-us {
-  margin-bottom: 1em;
-}
+    margin: 1em 0;
+  }
+  .about-us-title,
+  .what-we-do-title {
+  text-align: center;
+  }
+  .about-us,
+  .what-we-do {
+    width: 100%;
+  }
+  .about-us {
+    margin-bottom: 1em;
+  }
+
+  .services__quote-btn {
+    margin-left: 30vw;
+  }
+
+  /* Mobile  END */
+} 
 
 
-}
 /* Small Devices
 *********************************************************/
 @media(max-width: 400px) {

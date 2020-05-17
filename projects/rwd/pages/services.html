@@ -8,19 +8,19 @@
   <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-  <div class="devices-container">
-
-    <header class="flex-container top-header" >
-      <div class="top-header-logo-container">
-        <p class="top-header-logo-text"><span class="top-header-logo-acme">ACME </span>WEB DESIGN</p>
-      </div>
-      <nav class="top-header-nav"">
-        <ul>
-          <li><a href="../index.html">HOME</a></li>
-          <li><a href="../pages/about.html" >ABOUT</a></li>
-          <li><a href="../pages/services.html" class="active">SERVICES</a></li>
-        </ul>
-      </nav>
+  <!-- Container is set for RWD -->
+  <div class="rwd-container">
+    <header class="header-main" >
+        <div class="header-main-logo-container">
+          <p class="header-main-logo-text"><span class="top-header-logo-acme">ACME </span>WEB DESIGN</p>
+        </div>
+        <nav class="header-main-nav">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="../pages/about.html">ABOUT</a></li>
+            <li><a href="../pages/services.html" class="active" >SERVICES</a></li>
+          </ul>
+        </nav>
     </header>
 
 
@@ -62,6 +62,7 @@
           <input type="email" id="email" class="email" placeholder="j.deo@gmail.com">
           <label for="message">Message</label>
           <textarea name="message" id="message" class="message" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn services__quote-btn">Subscribe</button>
         </form>
       </aside>
     </main>
