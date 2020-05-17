@@ -2,7 +2,7 @@ html { font-size: 62.5%; }
 :root {
   font-family: Arial, Helvetica, sans-serif;
   font-size: calc( .8rem + 1vw);
-  line-height: 1.4em;
+  line-height: 1.5;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 a { color: inherit; text-decoration: none; display: inline-block; }
@@ -143,7 +143,6 @@ footer {
   text-align: center;
   font-size: 1.75rem;
   padding: 1rem 0;
-  line-height: 1.5;
 }
 
 
@@ -158,7 +157,7 @@ footer {
   text-transform: uppercase;
 }
 .newsletter-form {
-  margin: 1em auto;
+  margin: .5em auto .25em auto;
   text-align: center;
 }
 
