@@ -82,9 +82,8 @@ input {
 
 
 .social-media-container {
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 1.5em 0;
+    padding-bottom: 1em;
 
     display: flex;
     align-items: center;
@@ -110,6 +109,7 @@ input {
     margin-left: .5em;
     font-size: .9rem;
 }
+
 
 
 /* ALready User Login
