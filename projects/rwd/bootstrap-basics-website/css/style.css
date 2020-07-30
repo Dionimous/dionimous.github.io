@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #008ed6;
+    --dark-gray: #333333;
+}
+
+body {
+    color: white; background-color: black;
+}
+img { width: 100%; }
+
+.navbar{
+    border-bottom: 1px solid #008ed6;
+}
+
+
+/* Home Section
+ ************************************************************** */
+
+.home-section {
+    min-height: 100vh;
+    margin-top: 3.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/friends_BW.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.home-section-content {
+    padding-top: 3em;
+}
+
+.checkbox-img {
+    width: 50px;
+    margin-right: 1em;
+}
+
+.card-form {
+    background-color: rgba(0, 0, 255, .5);
+}
+
+
+
+/* Explore Section
+ ************************************************************** */
+ .explore-section {
+     min-height: 100vh;
+     color: black; background-color: white;
+ }
+ .explore-section-header {
+    color: white; background-color: rgb(2, 2, 168);
+ }
+
+ .explore-section-body {
+     color: black; background-color: white;
+ }
+
+
+
+ .creative-section {
+     min-height: 100vh;
+     border-top: 3px solid #008ed6;
+ }
+
+ .footer {
+     background-color: black;
+ }
+ 
+
+
+ @media(max-width: 990px) {
+    .explore-section-body-title {
+        padding: 1em 0;
+    }
+ }
+
+
+
+@media(max-width: 700px) {
+    .home-section {
+        margin-top: 1.5em;
+    }
+    
+}
